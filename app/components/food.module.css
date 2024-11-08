@@ -1,0 +1,13 @@
+.article {
+  border: groove;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 450px;
+  margin-right: 450px;
+  h1 {
+    font-size: 30px;
+    margin-top: 75px;
+  }
+}

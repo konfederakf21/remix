@@ -1,7 +1,12 @@
 export default function Footer() {
   return (
     <footer>
-      <h1>Autosalon</h1>
+      <h1>Kde nás najdete</h1>
+      <img
+        src=""
+        alt="Mapa"
+      />
+      <p>Krakonošovo náměstí 1</p>
     </footer>
   );
 }

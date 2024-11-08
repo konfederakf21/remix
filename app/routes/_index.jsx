@@ -1,6 +1,7 @@
-import Header from "../components/header";
+import "../css/general.css";
+import Header3 from "../components/header";
+import Food from "../components/food";
 import Footer from "../components/footer";
-import Car from "../components/car";
 
 export const meta = () => {
   return [
@@ -12,18 +13,21 @@ export const meta = () => {
 export default function Index() {
   return (
     <>
-      <Header />
-      <Car
-        title="Škoda Octavia"
-        img="https://cdn.pixabay.com/photo/2019/07/12/12/37/skoda-4332791_1280.jpg"
+      <Header3 />
+      <Food
+        img="https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_640.jpg"
+        title="Steak"
+        price={200}
       />
-      <Car
-        title="Volkswagen"
-        img="https://cdn.pixabay.com/photo/2019/07/12/12/49/vw-4332807_640.jpg"
+      <Food
+        img="https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_640.jpg"
+        title="Burger"
+        price={230}
       />
-      <Car
-        title="BMW"
-        img="https://cdn.pixabay.com/photo/2021/06/23/22/02/bmw-6359790_640.jpg"
+      <Food
+        img="https://cdn.pixabay.com/photo/2016/11/19/02/22/schnipo-1837703_640.jpg"
+        title="Kuřecí řízek"
+        price={180}
       />
       <Footer />
     </>
