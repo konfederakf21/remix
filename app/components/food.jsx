@@ -6,12 +6,12 @@ import style from "../components/food.module.css";
  * @param {string} price - Cena jídla, v Kč
  */
 
-export default function Food({ img, title, price }) {
+export default function Food({ image, title, price }) {
   return (
     <article className={style.article}>
       <section>
         <img
-          src={img}
+          src={image}
           alt={title}
           width={300}
         />
