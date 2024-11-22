@@ -1,4 +1,4 @@
-export function loader() {
+export function getFood() {
   let foodList = [
     {
       title: "Steak",
