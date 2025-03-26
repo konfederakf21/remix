@@ -1,4 +1,4 @@
-import style from "../components/header.module.css";
+import style from "../3_components/header.module.css";
 
 export default function Header3() {
   return (
