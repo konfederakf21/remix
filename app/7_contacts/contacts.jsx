@@ -1,5 +1,5 @@
-import { useLoaderData } from "@remix-run/react";
-import { getContacts } from "../api/contact";
+/*import { useLoaderData } from "@remix-run/react";
+import { getContacts } from "../api/offer";
 import { Link } from "@remix-run/react";
 
 export async function loader() {
@@ -26,3 +26,4 @@ export default function Contacts() {
     </>
   );
 }
+*/

@@ -2,6 +2,7 @@ const database = "2it_konfederakf21";
 const username = "konfederakf21";
 const password = "hqAwBd1xAr";
 const server = "localhost";
+
 export async function sql(sql) {
   const url = "http://marcincin.epsilon.spstrutnov.cz/gate.php";
   const postJson = JSON.stringify({
