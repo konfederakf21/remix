@@ -1,7 +1,7 @@
 import { sql } from "./sql";
 
 export async function getRecipes() {
-  const response = await sql(`SELECT * FROM recipes`);
+  const response = await sql(`SELECT * FROM social_user`);
   console.log(response);
 
   let recipeList = response;
@@ -17,7 +17,7 @@ export async function getCategories() {
 }
 
 export async function getRecipesDetail(slug) {
-  const response = await sql(`SELECT * FROM recipes WHERE slug=${slug}`);
+  const response = await sql(`SELECT * FROM social_user WHERE slug=${slug}`);
   console.log(response);
 
   let recipeData = response;
@@ -25,7 +25,7 @@ export async function getRecipesDetail(slug) {
 }
 
 export async function getCategoriesDetail(name) {
-  const response = await sql(`SELECT * FROM recipes WHERE slug=${name}`);
+  const response = await sql(`SELECT * FROM social_user WHERE slug=${name}`);
   console.log(response);
 
   let categoryData = response;

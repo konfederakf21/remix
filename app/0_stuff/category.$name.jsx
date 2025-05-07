@@ -1,7 +1,7 @@
 import { useLoaderData } from "@remix-run/react";
 import { getCategories } from "../api/recipe";
 
-export async function loader2({ params }) {
+export async function loader({ params }) {
   const categoryName = params.name;
   const categoryData = await getCategories(categoryName);
   return categoryData[0];

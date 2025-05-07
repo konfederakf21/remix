@@ -11,10 +11,11 @@
   "dependencies": {
     "@neondatabase/serverless": "^0.10.3",
     "@remix-run/node": "2.10.0",
-    "@remix-run/react": "2.10.0",
+    "@remix-run/react": "^2.3.1",
     "@remix-run/server-runtime": "2.10.0",
     "@vercel/analytics": "^1.2.2",
-    "@vercel/remix": "2.10.0",
+    "@vercel/remix": "^1.19.3",
+    "bcryptjs": "^3.0.2",
     "isbot": "^4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -26,7 +27,7 @@
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.38.0",
     "typescript": "^5.1.6",
-    "vite": "^5.1.0",
+    "vite": "^6.3.3",
     "vite-tsconfig-paths": "^4.2.1"
   },
   "engines": {
