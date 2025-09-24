@@ -29,7 +29,7 @@ export async function action({ request }) {
       return json({ error: "Nesprávné heslo." });
     }
 
-    return redirect("/dashboard");
+    return redirect("/chat");
   } catch (error) {
     console.error(error);
     return json({ error: "Chyba při přihlašování." });
