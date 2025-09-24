@@ -29,7 +29,6 @@ export async function action({ request }) {
       return json({ error: "Nesprávné heslo." });
     }
 
-    // Přihlášení OK, přesměrování
     return redirect("/dashboard");
   } catch (error) {
     console.error(error);
